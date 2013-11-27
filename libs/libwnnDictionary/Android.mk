@@ -28,6 +28,6 @@ LOCAL_C_INCLUDES += \
 	$(LOCAL_PATH)/include $(LOCAL_PATH)
 
 LOCAL_CFLAGS += \
-	 -O
+	 -O -fno-strict-aliasing
 
 include $(BUILD_SHARED_LIBRARY)
